@@ -8,10 +8,10 @@ app = Flask(__name__)
 @app.route('/generate_py_task', methods=['GET', 'POST'])
 def generate_py_task():
     # Read the format and examples from the files
-    with open('format.txt', 'r') as format_file:
+    with open('Python_Quest_Template/format.txt', 'r') as format_file:
         format_content = format_file.read()
     
-    with open('example_tasks.txt', 'r') as examples_file:
+    with open('Python_Quest_Template/example_tasks.txt', 'r') as examples_file:
         examples_content =  examples_file.read()
         
     
