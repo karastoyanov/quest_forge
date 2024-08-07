@@ -1,0 +1,9 @@
+# Ignore Python venv
+/quest_forge/
+
+# Ignore Python cache
+**/__pycache__/
+
+# Ignore txt templates
+/Python Quest Template/
+/Python Quest Template/
